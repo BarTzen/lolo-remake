@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://c7j6j0ot51ug6"]
+
+[ext_resource type="TileSet" uid="uid://tileset00001" path="res://resources/tilemaps/tileset.tres" id="2_khnyk"]
+[ext_resource type="PackedScene" uid="uid://lolo00000001" path="res://scenes/entities/lolo.tscn" id="3_lolo"]
+
+[node name="Level" type="Node2D" unique_id=940950258]
+
+[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=84142365]
+tile_set = ExtResource("2_khnyk")
+
+[node name="Entities" type="Node2D" parent="." unique_id=115728002]
+
+[node name="Lolo" parent="Entities" unique_id=236191599 instance=ExtResource("3_lolo")]
+position = Vector2(32, 128)

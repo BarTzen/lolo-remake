@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://mrm7imktrf2a"]
+
+[ext_resource type="TileSet" uid="uid://tileset00001" path="res://resources/tilemaps/tileset.tres" id="2_khnyk"]
+[ext_resource type="PackedScene" uid="uid://lolo00000001" path="res://scenes/entities/lolo.tscn" id="3_lolo"]
+
+[node name="Level1" type="Node2D" unique_id=1751377297]
+
+[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=1027100564]
+tile_set = ExtResource("2_khnyk")
+collision_visibility_mode = 1
+
+[node name="Entities" type="Node2D" parent="." unique_id=1263762611]
+
+[node name="Lolo" parent="Entities" unique_id=1584003494 instance=ExtResource("3_lolo")]
+position = Vector2(32, 128)

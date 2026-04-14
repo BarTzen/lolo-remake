@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://lolo00000001"]
+
+[ext_resource type="Script" path="res://scripts/entities/lolo.gd" id="1_lolo"]
+[ext_resource type="SpriteFrames" path="res://resources/sprite_frames/lolo_frames.tres" id="2_lolo"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lolo"]
+size = Vector2(14.0, 14.0)
+
+[node name="Lolo" type="CharacterBody2D"]
+script = ExtResource("1_lolo")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(8, 8)
+sprite_frames = ExtResource("2_lolo")
+animation = &"idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_lolo")
