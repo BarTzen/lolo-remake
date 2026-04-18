@@ -11,8 +11,9 @@ size = Vector2(14, 14)
 position = Vector2(8, 8)
 sprite_frames = ExtResource("2_lala")
 animation = &"walk_down"
+frame = 6
+frame_progress = 0.90496916
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=488835524]
-visible = false
 position = Vector2(8, 8)
 shape = SubResource("RectangleShape2D_lala")
