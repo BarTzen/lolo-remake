@@ -234,7 +234,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"walk_left",
-"speed": 3.0
+"speed": 5.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -280,5 +280,5 @@ animations = [{
 }],
 "loop": true,
 "name": &"walk_up",
-"speed": 2.0
+"speed": 8.0
 }]
