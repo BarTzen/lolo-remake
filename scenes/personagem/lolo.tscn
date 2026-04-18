@@ -1,163 +1,164 @@
-[gd_resource type="SpriteFrames" format=3 uid="uid://bifeuv8q14yeo"]
+[gd_scene format=3 uid="uid://lolo00000001"]
 
-[ext_resource type="Texture2D" uid="uid://dts07o52slruj" path="res://assets/sprites/characters.png" id="1_chars"]
+[ext_resource type="Texture2D" uid="uid://dts07o52slruj" path="res://assets/sprites/characters.png" id="1_6g5wa"]
+[ext_resource type="Script" uid="uid://de4eesavn0we6" path="res://scenes/personagem/lolo.gd" id="1_xnrtv"]
 
 [sub_resource type="AtlasTexture" id="AT_die0"]
-atlas = ExtResource("1_chars")
+atlas = ExtResource("1_6g5wa")
 region = Rect2(0, 64, 16, 16)
 filter_clip = true
 
 [sub_resource type="AtlasTexture" id="AT_die1"]
-atlas = ExtResource("1_chars")
+atlas = ExtResource("1_6g5wa")
 region = Rect2(16, 64, 16, 16)
 filter_clip = true
 
 [sub_resource type="AtlasTexture" id="AT_die2"]
-atlas = ExtResource("1_chars")
+atlas = ExtResource("1_6g5wa")
 region = Rect2(32, 64, 16, 16)
 filter_clip = true
 
 [sub_resource type="AtlasTexture" id="AT_die3"]
-atlas = ExtResource("1_chars")
+atlas = ExtResource("1_6g5wa")
 region = Rect2(48, 64, 16, 16)
 filter_clip = true
 
 [sub_resource type="AtlasTexture" id="AT_die4"]
-atlas = ExtResource("1_chars")
+atlas = ExtResource("1_6g5wa")
 region = Rect2(64, 64, 16, 16)
 filter_clip = true
 
 [sub_resource type="AtlasTexture" id="AT_idle0"]
-atlas = ExtResource("1_chars")
+atlas = ExtResource("1_6g5wa")
 region = Rect2(0, 80, 16, 16)
 filter_clip = true
 
 [sub_resource type="AtlasTexture" id="AT_idle1"]
-atlas = ExtResource("1_chars")
+atlas = ExtResource("1_6g5wa")
 region = Rect2(16, 80, 16, 16)
 filter_clip = true
 
 [sub_resource type="AtlasTexture" id="AT_idle2"]
-atlas = ExtResource("1_chars")
+atlas = ExtResource("1_6g5wa")
 region = Rect2(32, 80, 16, 16)
 filter_clip = true
 
 [sub_resource type="AtlasTexture" id="AT_idle3"]
-atlas = ExtResource("1_chars")
+atlas = ExtResource("1_6g5wa")
 region = Rect2(48, 80, 16, 16)
 filter_clip = true
 
 [sub_resource type="AtlasTexture" id="AT_wd0"]
-atlas = ExtResource("1_chars")
+atlas = ExtResource("1_6g5wa")
 region = Rect2(0, 0, 16, 16)
 filter_clip = true
 
 [sub_resource type="AtlasTexture" id="AT_wd1"]
-atlas = ExtResource("1_chars")
+atlas = ExtResource("1_6g5wa")
 region = Rect2(16, 0, 16, 16)
 filter_clip = true
 
 [sub_resource type="AtlasTexture" id="AT_wd2"]
-atlas = ExtResource("1_chars")
+atlas = ExtResource("1_6g5wa")
 region = Rect2(32, 0, 16, 16)
 filter_clip = true
 
 [sub_resource type="AtlasTexture" id="AT_wd3"]
-atlas = ExtResource("1_chars")
+atlas = ExtResource("1_6g5wa")
 region = Rect2(48, 0, 16, 16)
 filter_clip = true
 
 [sub_resource type="AtlasTexture" id="AT_wd4"]
-atlas = ExtResource("1_chars")
+atlas = ExtResource("1_6g5wa")
 region = Rect2(64, 0, 16, 16)
 filter_clip = true
 
 [sub_resource type="AtlasTexture" id="AT_wu0"]
-atlas = ExtResource("1_chars")
+atlas = ExtResource("1_6g5wa")
 region = Rect2(0, 16, 16, 16)
 filter_clip = true
 
 [sub_resource type="AtlasTexture" id="AT_wu1"]
-atlas = ExtResource("1_chars")
+atlas = ExtResource("1_6g5wa")
 region = Rect2(16, 16, 16, 16)
 filter_clip = true
 
 [sub_resource type="AtlasTexture" id="AT_wu2"]
-atlas = ExtResource("1_chars")
+atlas = ExtResource("1_6g5wa")
 region = Rect2(32, 16, 16, 16)
 filter_clip = true
 
 [sub_resource type="AtlasTexture" id="AT_wu3"]
-atlas = ExtResource("1_chars")
+atlas = ExtResource("1_6g5wa")
 region = Rect2(48, 16, 16, 16)
 filter_clip = true
 
 [sub_resource type="AtlasTexture" id="AT_wu4"]
-atlas = ExtResource("1_chars")
+atlas = ExtResource("1_6g5wa")
 region = Rect2(64, 16, 16, 16)
 filter_clip = true
 
 [sub_resource type="AtlasTexture" id="AT_wr0"]
-atlas = ExtResource("1_chars")
+atlas = ExtResource("1_6g5wa")
 region = Rect2(0, 48, 16, 16)
 filter_clip = true
 
 [sub_resource type="AtlasTexture" id="AT_wr1"]
-atlas = ExtResource("1_chars")
+atlas = ExtResource("1_6g5wa")
 region = Rect2(16, 48, 16, 16)
 filter_clip = true
 
 [sub_resource type="AtlasTexture" id="AT_wr2"]
-atlas = ExtResource("1_chars")
+atlas = ExtResource("1_6g5wa")
 region = Rect2(32, 48, 16, 16)
 filter_clip = true
 
 [sub_resource type="AtlasTexture" id="AT_wr3"]
-atlas = ExtResource("1_chars")
+atlas = ExtResource("1_6g5wa")
 region = Rect2(48, 48, 16, 16)
 filter_clip = true
 
 [sub_resource type="AtlasTexture" id="AT_wr4"]
-atlas = ExtResource("1_chars")
+atlas = ExtResource("1_6g5wa")
 region = Rect2(64, 48, 16, 16)
 filter_clip = true
 
 [sub_resource type="AtlasTexture" id="AT_wr5"]
-atlas = ExtResource("1_chars")
+atlas = ExtResource("1_6g5wa")
 region = Rect2(80, 48, 16, 16)
 filter_clip = true
 
 [sub_resource type="AtlasTexture" id="AT_wr6"]
-atlas = ExtResource("1_chars")
+atlas = ExtResource("1_6g5wa")
 region = Rect2(96, 48, 16, 16)
 filter_clip = true
 
 [sub_resource type="AtlasTexture" id="AT_wl0"]
-atlas = ExtResource("1_chars")
+atlas = ExtResource("1_6g5wa")
 region = Rect2(0, 32, 16, 16)
 filter_clip = true
 
 [sub_resource type="AtlasTexture" id="AT_wl1"]
-atlas = ExtResource("1_chars")
+atlas = ExtResource("1_6g5wa")
 region = Rect2(16, 32, 16, 16)
 filter_clip = true
 
 [sub_resource type="AtlasTexture" id="AT_wl2"]
-atlas = ExtResource("1_chars")
+atlas = ExtResource("1_6g5wa")
 region = Rect2(32, 32, 16, 16)
 filter_clip = true
 
 [sub_resource type="AtlasTexture" id="AT_wl3"]
-atlas = ExtResource("1_chars")
+atlas = ExtResource("1_6g5wa")
 region = Rect2(48, 32, 16, 16)
 filter_clip = true
 
 [sub_resource type="AtlasTexture" id="AT_wl4"]
-atlas = ExtResource("1_chars")
+atlas = ExtResource("1_6g5wa")
 region = Rect2(64, 32, 16, 16)
 filter_clip = true
 
-[resource]
+[sub_resource type="SpriteFrames" id="SpriteFrames_ju0lu"]
 animations = [{
 "frames": [{
 "duration": 1.0,
@@ -282,3 +283,21 @@ animations = [{
 "name": &"walk_up",
 "speed": 8.0
 }]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lolo"]
+size = Vector2(14, 14)
+
+[node name="Lolo" type="CharacterBody2D" unique_id=1744060228]
+collision_layer = 2
+script = ExtResource("1_xnrtv")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1067563436]
+position = Vector2(8, 8)
+sprite_frames = SubResource("SpriteFrames_ju0lu")
+animation = &"walk_down"
+frame = 4
+frame_progress = 0.22014429
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=420602305]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_lolo")
