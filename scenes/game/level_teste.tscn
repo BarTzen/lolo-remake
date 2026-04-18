@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://cy8gckgue1v73"]
+
+[ext_resource type="PackedScene" uid="uid://c5ye7nyvbh5ej" path="res://scenes/game/sala_base.tscn" id="1_ehwls"]
+[ext_resource type="PackedScene" uid="uid://lolo00000001" path="res://scenes/personagem/lolo.tscn" id="2_7ywai"]
+
+[node name="LevelTeste" type="Node2D" unique_id=1014552644]
+
+[node name="Sala_Base" parent="." unique_id=49849981 instance=ExtResource("1_ehwls")]
+
+[node name="Lolo" parent="." unique_id=1744060228 instance=ExtResource("2_7ywai")]
+position = Vector2(68, 64)
